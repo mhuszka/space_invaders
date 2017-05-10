@@ -1,0 +1,129 @@
+body  {
+    margin: 0;
+    padding: 0;
+    background-image: url(../00-input/universe-05.png);  
+    background-size: cover;
+}
+
+.jeu {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.planete {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.missile {
+    width: 2px;
+    height: 15px;
+    background-color: white;
+    position: absolute;
+    bottom: 60%;
+    left: 46%;
+    z-index: 1;
+}
+
+.vaisseau {
+    position: absolute;
+    bottom: 10%;
+    left: 48%;
+    position:absolute;
+    z-index: 1;
+}
+
+/******************* PAGE D'ACCUEIL**********************/
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: absolute;
+    z-index: 2;
+    margin-top: 10%;
+}
+
+h2 {
+    font-family: 'space mono', monospace;
+    color: #110628;
+    font-size: 5vh;
+    font-weight: bold;
+    background-color: rgba(255,255,255,0.4);
+    padding: 3vh;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'space mono', monospace;
+    color: #110628;
+    font-size: 5vh;
+    font-weight: bold;
+    background-color: rgba(255,255,255,0.4);
+    padding: 3vh;
+    text-align: center;
+    cursor: crosshair;
+}
+
+.remove {
+    display: none;
+}
+
+/******************* WIN *****************************/
+
+.win {
+    font-family: 'space mono', monospace;
+    color: #110628;
+    font-size: 5vh;
+    font-weight: bold;
+    background-color: rgba(255,255,255,0.4);
+    padding: 1vh;
+    text-align: center; 
+    position: absolute;
+    top: 20%;
+    width: 30%;
+
+}
+
+.lose {
+    font-family: 'space mono', monospace;
+    color: #110628;
+    font-size: 5vh;
+    font-weight: bold;
+    background-color: rgba(255,255,230,0.4);
+    padding: 1vh;
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    width: 30%;
+
+}
+
+.rejouer {
+    font-family: 'space mono', monospace;
+    color: #110628;
+    font-size: 5vh;
+    font-weight: bold;
+    background-color: rgba(255,255,255,0.4);
+    padding: 1vh;
+    text-align: center; 
+    position: absolute;
+    bottom: 40%;
+    width: 30%;
+    cursor: crosshair;
+
+}
+
+
+
+
